@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Assignment"
+    android:orientation="vertical">
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    android:id="@+id/recycler_assignment"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_700"
+        app:iconTint="@color/white"
+        android:id="@+id/assignement_fab"
+        android:layout_gravity="end"
+        app:icon="@drawable/ic_baseline_cloud_upload_24"/>
+
+
+</LinearLayout>

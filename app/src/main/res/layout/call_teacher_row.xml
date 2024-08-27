@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:id="@+id/name_teacher_call"
+            android:textSize="17dp"
+            android:text="Kuddus Sir"
+            android:textColor="@color/purple_500"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/call_button_teacher"
+            android:src="@drawable/ic_baseline_call_24"
+            android:background="#00FFFFFF"
+            app:tint="@color/purple_500" />
+    </LinearLayout>
+<!--    <TwoLineListItem-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbarSize="10dp"/>-->
+</LinearLayout>

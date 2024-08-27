@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/assignment"
+    android:icon="@drawable/ic_home"
+    android:title="Home"
+    android:enabled="true"
+    app:showAsAction="ifRoom"/>
+    <item android:id="@+id/notice_board"
+        android:icon="@drawable/ic_blackboard"
+        android:title="Notice"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/help_email"
+        android:icon="@drawable/ic_helping_hand"
+        android:title="Help"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_online_class"
+        android:title="Online Class"
+        android:icon="@drawable/ic_online_learning"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+<!--    <item-->
+<!--        android:id="@+id/important_files"-->
+<!--        android:title="ফাইল"-->
+<!--        android:icon="@drawable/ic_folder"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/call_teacher"
+        android:icon="@drawable/ic_phone_call_1_"
+        android:title="Teachers"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+</menu>

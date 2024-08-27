@@ -1,0 +1,4 @@
+rootProject.name = "RCBSC Assignment Upload"
+include ':app'
+include ':commonlib'
+include ':mobilertc'
